@@ -186,7 +186,7 @@ function updateRemain() {
   };
 
   pool.forEach(p => counts[p]++);
-/**
+
   document.getElementById("remain").innerHTML = `
     남은 수량<br>
     1등: ${counts["1등"]} / 
@@ -194,7 +194,7 @@ function updateRemain() {
     3등: ${counts["3등"]} / 
     꽝: ${counts["꽝"]} <br>
     총 ${pool.length}개 남음
-    */
+  
   `;
 }
 
